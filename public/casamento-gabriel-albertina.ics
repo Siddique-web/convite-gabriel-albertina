@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Convite Gabriel e Albertina//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Casamento Gabriel e Albertina
+BEGIN:VEVENT
+UID:casamento-gabriel-albertina-20261219@convite
+DTSTAMP:20261103T153104Z
+DTSTART:20261219T110000Z
+DTEND:20261219T210000Z
+SUMMARY:Casamento — Gabriel & Albertina
+DESCRIPTION:Cerimónia civil às 13h00 no Macuti Oasis Garden.\nCerimónia
+  religiosa às 15h00 na Catedral.\nCopo de água às 18h00 no Oasis Garde
+ n.
+LOCATION:Macuti Oasis Garden\, Beira
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Casamento — Gabriel & Albertina — amanhã
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Casamento — Gabriel & Albertina — hoje
+TRIGGER:-PT3H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
